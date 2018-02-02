@@ -23,7 +23,7 @@ import {Nav,NavItem,Navbar,MenuItem,NavDropdown} from 'react-bootstrap'
 class App extends Component {
   render() {
     return (
-      <div className='container-fluid'>
+      <div>
 
 
           <Navbar inverse collapseOnSelect>
@@ -60,7 +60,7 @@ class App extends Component {
           </Navbar.Collapse>
       </Navbar>;
 
-
+          <div className='container-fluid'>
 
           <Parallax
               blur={{ min: -23, max: 15 }}
@@ -138,7 +138,7 @@ class App extends Component {
                   <div className="row">
                       <div className="col-lg-12 text-center">
                           <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-                          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, maiores.Lorem ipsum dolor sit amet consectetur.</h3>
                       </div>
                   </div>
                   <div className="row">
@@ -239,6 +239,7 @@ class App extends Component {
 
 
           <button  id="myBtn">Top</button>
+      </div>
       </div>
     );
   }
